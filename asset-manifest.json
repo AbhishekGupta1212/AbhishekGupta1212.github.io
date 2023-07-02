@@ -1,14 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.853f5eff.css",
-    "main.js": "/static/js/main.9d3a9d45.js",
+    "main.js": "/static/js/main.87c2b387.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/AbhishekGupta.png": "/static/media/AbhishekGupta.7bb5be3b45c58937775c.png",
-    "static/media/AdminPanel.png": "/static/media/AdminPanel.bde30252e5b67ddb7741.png",
     "static/media/Homepage.png": "/static/media/Homepage.2a937d968f08a07bd01a.png",
+    "static/media/WomensProd.png": "/static/media/WomensProd.3fbc108a91dc858ef09d.png",
+    "static/media/AdminPanel.png": "/static/media/AdminPanel.bde30252e5b67ddb7741.png",
+    "static/media/MensProd.png": "/static/media/MensProd.d671660b9c7a92205006.png",
+    "static/media/Login.png": "/static/media/Login.ef2b8af8b6d48b87f983.png",
     "static/media/singleProduct.png": "/static/media/singleProduct.95424df34ad8ebc66301.png",
     "static/media/Products.png": "/static/media/Products.a0db605e11c1c8fb4cd7.png",
+    "static/media/homepage.png": "/static/media/homepage.ceceed571b5ecd533c11.png",
+    "static/media/Store.png": "/static/media/Store.bebde8d4c4a9947f156c.png",
+    "static/media/SingleProd.png": "/static/media/SingleProd.cebdede0bc997c63f868.png",
     "static/media/Abhishek-Gupta-Resume.pdf": "/static/media/Abhishek-Gupta-Resume.b7cb9842fcdaae6b624f.pdf",
+    "static/media/payment.png": "/static/media/payment.1a602f239208759eebc8.png",
+    "static/media/Cart.png": "/static/media/Cart.bd7b4b84f318e540015e.png",
+    "static/media/SignUp.png": "/static/media/SignUp.ae4f09d34146e6432a37.png",
     "static/media/login.png": "/static/media/login.9e626a7de78d2c696778.png",
     "static/media/nodejs.png": "/static/media/nodejs.71a23beab09f12064284.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -16,11 +25,11 @@
     "index.html": "/index.html",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.853f5eff.css.map": "/static/css/main.853f5eff.css.map",
-    "main.9d3a9d45.js.map": "/static/js/main.9d3a9d45.js.map",
+    "main.87c2b387.js.map": "/static/js/main.87c2b387.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.853f5eff.css",
-    "static/js/main.9d3a9d45.js"
+    "static/js/main.87c2b387.js"
   ]
 }
