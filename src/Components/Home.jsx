@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "../Styles/Home.css"
+import "../Styles/darkmode.css"
 import myResume from "../Resume/Abhishek-Gupta-Resume.pdf";
 
 import { Typewriter } from "react-simple-typewriter";
@@ -10,7 +11,7 @@ import Aos from "aos";
 
 const handleResumeShow = () => {
   window.open(
-    `https://drive.google.com/file/d/1Z35YiKRLf9n2c8L9O86qlciNA_iGb89p/view?usp=share_link`
+    `https://1drv.ms/b/s!At_y5C9RMHD8_5lQLUsvlJWGGcnfBA?e=TOGTm5`,'_blank'
   );
 };
 const Home = () => {
@@ -19,9 +20,10 @@ const Home = () => {
   }, []);
   return (
     <section id="home" style={{marginTop:"30px"}}>
-      <div id="profile">
+      <div id="profile" >
         {/* image */}
-        <img src={abhi_img} alt="" style={{width:"50%"}}/>
+        <img src={abhi_img} className="home-img" alt="" style={{width:"50%",objectFit:"cover",borderRadius:"230px"}}/>
+        
       </div>
       <div id="abhi">
         <h1>
@@ -29,12 +31,12 @@ const Home = () => {
           Hello{" "}
           <img
             width={35}
-            src="https://em-content.zobj.net/thumbs/160/apple/325/waving-hand_1f44b.png"
+            src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_medium-light-skin-tone_1f44b-1f3fc_1f3fc.png"
             alt=""
           />{" "}
           My Name is{" "}
         </h1>
-        <h1 id="name">Abhishek Gupta</h1>
+        <h1 id="user-detail-name">Abhishek Gupta</h1>
         <h1 id="type">
           <Typewriter
             deleteSpeed={90}
@@ -53,10 +55,11 @@ const Home = () => {
           />
         </h1>
 
-        <span onClick={handleResumeShow}>
-          <a href={myResume} download>
+        <span onClick={handleResumeShow} id="resume-button-2">
+          <a href={myResume} download='Abhishek-Gupta-Resume' id="resume-link-2"
+          >
             <button
-              id="resume"
+            id="btnResume"
               style={{
                 borderRadius: "1rem",
                 backgroundColor:"#F2F5F5",

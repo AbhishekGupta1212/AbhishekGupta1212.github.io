@@ -46,12 +46,11 @@ margin-top: -10%;
   font-size: 22px;
   color: var(--color-heading);
 }
-#name {
+#user-detail-name {
   margin-top: -3%;
   font-size: 60px;
-  color: var(--color-heading);
 }
-#resume {
+#btnResume {
   padding: 20px;
   font-size: 20px;
   border-radius: 1rem;
@@ -61,7 +60,7 @@ margin-top: -10%;
  display: none;
 }
 
-#resume :hover {
+#btnResume :hover {
   box-shadow: 0px 0px 0px 200px var(--color-bg);
 }
 #type {
@@ -101,7 +100,7 @@ margin-top: -10%;
     font-size: 18px;
     color: var(--color-heading);
   }
-  #name {
+  #user-detail-name {
     margin-top: -15px;
     font-size: 45px;
     color: var(--color-heading);
@@ -147,7 +146,7 @@ margin-top: -10%;
     font-size: 18px;
     color: var(--color-heading);
   }
-  #name {
+  #user-detail-name {
     margin-top: -15px;
     font-size: 45px;
     color: var(--color-heading);

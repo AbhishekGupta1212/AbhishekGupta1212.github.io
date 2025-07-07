@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../Styles/darkmode.css"
 import "../Styles/Skills.css";
 import { frontend, backend, toolsarr, skillsarr } from "./SkillsImg";
 
@@ -9,9 +9,9 @@ const Skills = () => {
   const [tech, setTech] = React.useState("all");
 
   return (
-    <section id="skills">
+    <section id="skills" className="skills-card">
       <div id="tech" >
-        <h1 style={{ color: "var(--color-second)" }}>Technical Skills </h1>
+        <h1>Technical Skills </h1>
       </div>
       <Flex
         id="skillsButton"
@@ -43,27 +43,27 @@ const Skills = () => {
         <div id="skillsdiv">
           {tech === "all"
             ? skillsarr.map((el) => (
-                <div>
+                <div className="skills-card" key={el.name}>
                   {" "}
-                  <img alt="" src={el.img} />
-                  <h3>{el.name}</h3>
+                  <img alt="" src={el.img} className="skills-card-img"/>
+                  <h3 className="skills-card-name">{el.name}</h3>
                 </div>
               ))
             : null}
           {tech === "frontend"
             ? frontend.map((el) => (
-                <div>
-                  <img alt="" src={el.img} />
-                  <h3>{el.name}</h3>
+                <div key={el.name}>
+                  <img alt="" src={el.img} className="skills-card-img"/>
+                  <h3 className="skills-card-name">{el.name}</h3>
                 </div>
               ))
             : null}
           {tech === "backend"
             ? backend.map((el) => (
-                <div>
+                <div key={el.name}>
                   {" "}
-                  <img alt="" src={el.img} />
-                  <h3>{el.name}</h3>
+                  <img alt="" src={el.img} className="skills-card-img"/>
+                  <h3 className="skills-card-name">{el.name}</h3>
                 </div>
               ))
             : null}
@@ -75,8 +75,8 @@ const Skills = () => {
             ? skillsarr.map((el) => (
                 <div>
                   {" "}
-                  <img alt="" src={el.img} />
-                  <h3>{el.name}</h3>
+                  <img alt="" src={el.img} className="skills-card-img" />
+                  <h3 className="skills-card-name">{el.name}</h3>
                 </div>
               ))
             : null}
@@ -130,7 +130,7 @@ const Skills = () => {
         </div>
       ) : null}
       <Flex id="tools" margin={"auto"} justifyContent={"space-around"}>
-        <h1 style={{ color: "var(--color-second)" }}>Tools </h1>
+        <h1>Tools </h1>
       </Flex>
       <div id="skillsdiv">
         {toolsarr.map((el) => (

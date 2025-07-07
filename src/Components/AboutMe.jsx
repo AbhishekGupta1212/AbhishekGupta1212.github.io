@@ -4,17 +4,17 @@ import "../Styles/AboutMe.css"
 const AboutMe = () => {
  
   return (
-    <section id="about">
+    <section id="about"  className="about section">
       <div
-        id="tech"
-      
+       id="tech" 
+      className="about section"
       >
-        <h1 style={{ color: "var(--color-second)" ,fontSize:"58px"}}>About Me </h1>
+        <h1 style={{ fontSize:"58px"}} className="title">About Me </h1>
    
       </div>
 
       <div id="aboutdiv" >
-        <div>
+        <div id="user-detail-intro">
 <h2 style={{wordSpacing:"10px"}}>Hey Everyone, I'm Abhishek Gupta from Lucknow, Uttar Pradesh. I am a passionate, team-player, self-aspired, and adaptable individual with a problem-solving mindset who is eager to learn about new technologies and is proficient in HTML, JavaScript, CSS, React-Redux, MongoDB, and NodeJS. I've completed various projects involving the development of web apps, and I'm always looking for ways to expand my abilities and contribute to the growth of the tech sector.</h2>
         </div>
         <div  >

@@ -1,0 +1,40 @@
+.dark{
+    background: #302f2f;
+  }
+
+  .dark h1{
+    color:#a7a9d7;
+  }
+/* .dark #name h1{
+    color: #8739f9;
+} */
+  .dark h2{
+    color: #e6d5c8;
+  }
+.dark #skillsdiv div:hover{
+ color: aliceblue;
+transform: rotate(360deg);
+
+  border-color: #00ffff;
+  
+}
+.dark #skillsdiv div{
+    color:#918d8d
+}
+.dark #tech h1{
+    color:#d7dd89
+}
+.dark #type{
+    color:#d7dd89
+}
+.dark #tools h1{
+    color:#d7dd89
+}
+.dark #projects h2{
+  color: #e6d5c8;
+}
+
+.dark #card h1{
+  color :black
+}
+

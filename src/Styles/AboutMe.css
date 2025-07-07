@@ -7,6 +7,7 @@
     color: var(--color-heading);
     gap: 50px;
   }
+
   #aboutdiv img {
       width: 90%;
     border-radius: 2rem;

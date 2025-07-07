@@ -1,86 +1,79 @@
-// import React from 'react'
-// import { Navbar, Nav } from 'react-bootstrap';
-// export const NavigationBar = () => {
-
-//     return (
-//         <Navbar bg="light" expand="lg" className="navbar-custom">
-//           <Navbar.Brand href="#">Brand Name</Navbar.Brand>
-//           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-//           <Navbar.Collapse id="basic-navbar-nav">
-//             <Nav className="ml-auto">
-//               <Nav.Link href="#">Home</Nav.Link>
-//               <Nav.Link href="#">About</Nav.Link>
-//               <Nav.Link href="#">Contact</Nav.Link>
-//             </Nav>
-//           </Navbar.Collapse>
-//         </Navbar>
-//       );
-  
-// }
 
 import "../Styles/Navbar.css";
-
-import React, { useState } from "react";
-import Drawer1 from "./Drawer1";
+import "../Styles/darkmode.css"
+import React, { useEffect, useState } from "react";
 import myResume from '../Resume/Abhishek-Gupta-Resume.pdf'
+import Drawer1 from "./Drawer1";
 
 const TopNavbar = () => {
   const handleResumeShow=()=>{
-  window.open(`https://drive.google.com/file/d/1Z35YiKRLf9n2c8L9O86qlciNA_iGb89p/view?usp=share_link`)
+  window.open(`https://1drv.ms/b/s!At_y5C9RMHD8_5lQLUsvlJWGGcnfBA?e=TOGTm5`)
 }
   const [current, setCurrent] = useState("#home");
+const [darkMode,setdarkMode] = useState(false)
+ 
+useEffect(()=>{
+  if(darkMode){
+    document.body.classList.add('dark')
+  }else{
+    document.body.classList.remove('dark')
+  }
+},[darkMode])
   return (
-    <div>
+    <div id="nav-menu">
       <div style={{height:"10vh"}} id="topnav">
-        <a  href="https://abhishekgupta1212.github.io/"><div  style={{ marginLeft: "40px", align: "center", padding: "4px" }}>
-          <img width={"50px"} src='' alt="" />
+        <a  href="https://abhishekgupta1212.github.io/">
+          <div id="logo"  style={{ marginLeft: "150px", align: "center", padding: "4px" }}>
+          <img  width={"250px"} src='https://i.postimg.cc/T1VrKN6b/favicon-removebg-preview.png' alt="" />
         </div></a>
-        <div id="navel">
+        <div id="navel" >
           <div onClick={() => [setCurrent("#home"),window.location.href="#home"]}>
             {" "}
-            <a href="#home">
+            <a href="#home" className="nav-link home" >
               <h4 className={current === "#home" ? "activemain" : null}>
                 Home
               </h4>
             </a>
           </div>
           <div onClick={() => [setCurrent("#about"),window.location.href="#about"]}>
-            <a href="#about">
+            <a href="#about" className="nav-link about">
               <h4 className={current === "#about" ? "activemain" : null}>
                 About
               </h4>
             </a>{" "}
           </div>
           <div onClick={() => [setCurrent("#skills"),window.location.href="#skills"]}>
-            <a href="#skills">
+            <a href="#skills" className="nav-link skills">
               <h4 className={current === "#skills" ? "activemain" : null}>
                 Skills
               </h4>
             </a>{" "}
           </div>
           <div onClick={() => [setCurrent("#projects"),window.location.href="#projects"]}>
-            <a href="#projects">
+            <a href="#projects" className="nav-link projects">
               <h4 className={current === "#projects" ? "activemain" : null}>
                 Projects
               </h4>
             </a>{" "}
           </div>
           <div onClick={() => [setCurrent("#contact"),window.location.href="#contact"]}>
-            <a href="#contact">
+            <a href="#contact" className="nav-link contact">
               <h4 className={current === "#contact" ? "activemain" : null}>
                 Contact
               </h4>
             </a>{" "}
           </div>
-          <div onClick={() => setCurrent("#resume")}>
-            <span onClick={handleResumeShow}>
-            <a  href={myResume} download>
-              <h4 id="resumenav" className={current === "#resume" ? "activemain" : null}>
+          <div onClick={() => setCurrent("#resume")} id="resume-button-1" >
+            <span onClick={handleResumeShow} >
+            <a  href={myResume} download='Abhishek-Gupta-Resume' className="nav-link resume" id="resume-link-1">
+              <h4  className={current === "#resume" ? "activemain" : null}>
                 Resume
               </h4>                                                                       
             </a></span>{" "}
           </div>
-         
+         <div>
+         <input type="checkbox" class="l" onChange={()=>setdarkMode(!darkMode)}/>
+         </div>
         </div>
         <div id="sidebar">
         <Drawer1/>
