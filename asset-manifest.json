@@ -1,38 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.de63357e.css",
-    "main.js": "/static/js/main.e6bdf177.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/static/css/main.a08c3ec2.css",
+    "main.js": "/static/js/main.ded6e6e6.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/AbhishekGupta.png": "/static/media/AbhishekGupta.7bb5be3b45c58937775c.png",
     "static/media/Homepage.png": "/static/media/Homepage.2a937d968f08a07bd01a.png",
-    "static/media/Music.png": "/static/media/Music.c37351aaed68e73035ed.png",
     "static/media/WomensProd.png": "/static/media/WomensProd.3fbc108a91dc858ef09d.png",
     "static/media/AdminPanel.png": "/static/media/AdminPanel.bde30252e5b67ddb7741.png",
     "static/media/MensProd.png": "/static/media/MensProd.d671660b9c7a92205006.png",
-    "static/media/PlanPage.png": "/static/media/PlanPage.21dc8bcff646e3cec73c.png",
     "static/media/Login.png": "/static/media/Login.ef2b8af8b6d48b87f983.png",
     "static/media/singleProduct.png": "/static/media/singleProduct.95424df34ad8ebc66301.png",
     "static/media/Products.png": "/static/media/Products.a0db605e11c1c8fb4cd7.png",
     "static/media/homepage.png": "/static/media/homepage.ceceed571b5ecd533c11.png",
-    "static/media/Movie.png": "/static/media/Movie.f92af848f9d801ee4413.png",
     "static/media/Store.png": "/static/media/Store.bebde8d4c4a9947f156c.png",
     "static/media/SingleProd.png": "/static/media/SingleProd.cebdede0bc997c63f868.png",
-    "static/media/Abhishek-Gupta-Resume.pdf": "/static/media/Abhishek-Gupta-Resume.b079106293ce128b65d7.pdf",
+    "static/media/Content.png": "/static/media/Content.12a0d474829edcb5b9e9.png",
     "static/media/payment.png": "/static/media/payment.1a602f239208759eebc8.png",
+    "static/media/Abhishek-Gupta-Resume.pdf": "/static/media/Abhishek-Gupta-Resume.2fd36947b18b77c2513e.pdf",
+    "static/media/Index.png": "/static/media/Index.267b25ab741bb6e40a25.png",
     "static/media/Cart.png": "/static/media/Cart.bd7b4b84f318e540015e.png",
     "static/media/SignUp.png": "/static/media/SignUp.ae4f09d34146e6432a37.png",
+    "static/media/AllCourses.png": "/static/media/AllCourses.52ebffa99359f5d90a50.png",
+    "static/media/Landing.png": "/static/media/Landing.2015218c023605fc7c23.png",
     "static/media/login.png": "/static/media/login.9e626a7de78d2c696778.png",
     "static/media/nodejs.png": "/static/media/nodejs.71a23beab09f12064284.png",
     "static/media/mongoDb.webp": "/static/media/mongoDb.750bed52d9698a53b5d4.webp",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.de63357e.css.map": "/static/css/main.de63357e.css.map",
-    "main.e6bdf177.js.map": "/static/js/main.e6bdf177.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.a08c3ec2.css.map": "/static/css/main.a08c3ec2.css.map",
+    "main.ded6e6e6.js.map": "/static/js/main.ded6e6e6.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de63357e.css",
-    "static/js/main.e6bdf177.js"
+    "static/css/main.a08c3ec2.css",
+    "static/js/main.ded6e6e6.js"
   ]
 }
