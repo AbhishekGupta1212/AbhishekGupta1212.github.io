@@ -7,7 +7,7 @@ import Drawer1 from "./Drawer1";
 
 const TopNavbar = () => {
   const handleResumeShow=()=>{
-  window.open(`https://1drv.ms/b/s!At_y5C9RMHD8_5lQLUsvlJWGGcnfBA?e=TOGTm5`)
+  window.open(`https://1drv.ms/b/c/fc7030512fe4f2df/EUxbUK9bkERJt4sLitpiTuYBJBmg-i6R1TDHNC14lscxtQ?e=bhCo8w`)
 }
   const [current, setCurrent] = useState("#home");
 const [darkMode,setdarkMode] = useState(false)
