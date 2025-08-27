@@ -5,7 +5,7 @@ import Drawer1 from "./Drawer1";
 import resumeFile from '../Resume/Abhishek-Gupta-Resume.pdf'
 const TopNav = () => {
   const handleResumeShow=()=>{
-    window.open(`https://1drv.ms/b/c/fc7030512fe4f2df/EUxbUK9bkERJt4sLitpiTuYBJBmg-i6R1TDHNC14lscxtQ?e=bhCo8w`)
+    window.open(`https://1drv.ms/b/c/fc7030512fe4f2df/Ed_y5C9RMHAggPxMcB8AAAAB3sNbXVBiqrn68XT07C2dPQ?e=7NycVL`)
   }
   const [activenav, setActiveNav] = React.useState("#home");
 

@@ -11,7 +11,7 @@ import Aos from "aos";
 
 const handleResumeShow = () => {
   window.open(
-    `https://1drv.ms/b/c/fc7030512fe4f2df/EUxbUK9bkERJt4sLitpiTuYBJBmg-i6R1TDHNC14lscxtQ?e=bhCo8w`,'_blank'
+    `https://1drv.ms/b/c/fc7030512fe4f2df/Ed_y5C9RMHAggPxMcB8AAAAB3sNbXVBiqrn68XT07C2dPQ?e=7NycVL`,'_blank'
   );
 };
 const Home = () => {
