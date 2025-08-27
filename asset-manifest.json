@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a08c3ec2.css",
-    "main.js": "/static/js/main.26dcfacb.js",
+    "main.js": "/static/js/main.dcd54a9d.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/AbhishekGupta.png": "/static/media/AbhishekGupta.7bb5be3b45c58937775c.png",
     "static/media/Homepage.png": "/static/media/Homepage.2a937d968f08a07bd01a.png",
@@ -15,7 +15,7 @@
     "static/media/Store.png": "/static/media/Store.bebde8d4c4a9947f156c.png",
     "static/media/SingleProd.png": "/static/media/SingleProd.cebdede0bc997c63f868.png",
     "static/media/Content.png": "/static/media/Content.12a0d474829edcb5b9e9.png",
-    "static/media/Abhishek-Gupta-Resume.pdf": "/static/media/Abhishek-Gupta-Resume.0389501a0cebe895d501.pdf",
+    "static/media/Abhishek-Gupta-Resume.pdf": "/static/media/Abhishek-Gupta-Resume.fec949807bf5fd8f2611.pdf",
     "static/media/payment.png": "/static/media/payment.1a602f239208759eebc8.png",
     "static/media/Index.png": "/static/media/Index.267b25ab741bb6e40a25.png",
     "static/media/Cart.png": "/static/media/Cart.bd7b4b84f318e540015e.png",
@@ -29,11 +29,11 @@
     "index.html": "/index.html",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.a08c3ec2.css.map": "/static/css/main.a08c3ec2.css.map",
-    "main.26dcfacb.js.map": "/static/js/main.26dcfacb.js.map",
+    "main.dcd54a9d.js.map": "/static/js/main.dcd54a9d.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a08c3ec2.css",
-    "static/js/main.26dcfacb.js"
+    "static/js/main.dcd54a9d.js"
   ]
 }
